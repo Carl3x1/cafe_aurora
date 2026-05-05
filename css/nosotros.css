@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6, .heading-font {
 .page-header {
     height: 40vh;
     min-height: 400px;
-    background: linear-gradient(rgba(26, 21, 20, 0.7), rgba(26, 21, 20, 0.7)), url('https://placehold.co/1920x600/8b7355/fcfbf9?text=Granos+de+Cafe') no-repeat center center;
+    background: linear-gradient(rgba(26, 21, 20, 0.7), rgba(26, 21, 20, 0.7)), url('../images/granos de cafe nosotros.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 80px; 
 }
