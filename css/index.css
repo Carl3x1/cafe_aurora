@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6, .heading-font {
     position: relative;
     height: 100vh;
     min-height: 600px;
-    background: linear-gradient(rgba(26, 21, 20, 0.7), rgba(26, 21, 20, 0.7)), url('https://placehold.co/1920x1080/2c2420/fcfbf9?text=Interior+Cafeteria') no-repeat center center;
+    background: linear-gradient(rgba(26, 21, 20, 0.7), rgba(26, 21, 20, 0.7)), url('../images/interior cafeteria.jpg') no-repeat center center;
     background-size: cover;
     padding-top: 80px;
 }
@@ -103,6 +103,15 @@ h1, h2, h3, h4, h5, h6, .heading-font {
 .offer-card { transition: transform 0.3s ease; cursor: pointer; }
 .offer-card:hover { transform: translateY(-10px); }
 .offer-card .card-title { color: var(--text-dark); margin-bottom: 15px; }
+.offer-card .card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.carousel-img {
+    height: 500px;
+    object-fit: cover;
+}
 
 .featured-post { overflow: hidden; }
 .featured-post img { transition: transform 0.5s ease; }
