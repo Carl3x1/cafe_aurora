@@ -1,0 +1,52 @@
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.carta_comida {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 20px 20px 0 0;
+}
+
+.carta_comida:hover {
+    transform: translateY(-10px);
+}
+
+.carta_comida img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+
+.desc {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #42210b90;
+    padding: 10px;
+    color: white;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.carta_comida:hover .desc {
+    opacity: 1;
+}
+
+.div-container {
+    position: relative;
+}
+
+.fondo-color {
+    background-color: #42210b;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.color-precio {
+    color: #e4d4c1;
+}
