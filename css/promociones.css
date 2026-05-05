@@ -50,3 +50,20 @@
 .color-precio {
     color: #e4d4c1;
 }
+
+.imagen-contendor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagen-contendor img {
+    width: 100%;
+    height: 26vh;
+    object-fit: cover;
+}
+
+.fondo-imagen {
+    background-color: #42210b;
+}
